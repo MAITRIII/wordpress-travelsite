@@ -1,0 +1,1093 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Relic Fashion Store\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-27 06:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: template-parts/content-search.php:24 template-parts/content-single.php:25
+#: template-parts/content.php:22
+#: themerelic/hooks/relic-fashion-store-function.php:364
+#: themerelic/template/home/blog.php:81
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themerelic/customizers/customizer-callback.php:33
+#: themerelic/customizers/panels/header/top-header.php:90
+msgid "+977-1234567890"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:94
+msgid "1 Column"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:95
+msgid "2 Columns"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:37
+msgid "24/7 Customer Support"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:96
+msgid "3 Columns"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:97
+msgid "4 Columns"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:98
+msgid "5 Columns"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:99
+msgid "6 Columns"
+msgstr ""
+
+#: archive.php:54 index.php:66
+msgid "<"
+msgstr ""
+
+#: archive.php:55 index.php:67
+msgid ">"
+msgstr ""
+
+#: themerelic/customizers/sections/footer.php:41
+msgid "Accepted Payment Mathods"
+msgstr ""
+
+#: themerelic/customizers/customizer-callback.php:114
+msgid "Accepted Payment Method"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:436
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:440
+msgid "Add File"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:400
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:404
+msgid "Add Image"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:77
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:102
+msgid "Add the slider items.add the same size images."
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:25
+msgid "Add To Cart"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:34
+msgid "Add To Cart Button Text Change"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:182
+msgid "Add to Compare"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:353
+msgid "add to wishlist"
+msgstr ""
+
+#: functions.php:131 functions.php:142 functions.php:153 functions.php:164
+#: functions.php:175 functions.php:186 functions.php:197
+msgid "Add widgets here."
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:160
+msgid "all"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:11
+msgid "Archive & Blog Page"
+msgstr ""
+
+#: themerelic/hooks/relic-fashion-store-function.php:435
+#: themerelic/hooks/relic-fashion-store-function.php:436
+#: themerelic/hooks/relic-fashion-store-function.php:437
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:176
+msgid "Archive page Sidebar"
+msgstr ""
+
+#: themerelic/hooks/relic-fashion-store-function.php:438
+msgid "Author Archive"
+msgstr ""
+
+#: themerelic/hooks/relic-fashion-store-function.php:452
+msgid "Blog"
+msgstr ""
+
+#: themerelic/hooks/relic-fashion-store-function.php:439
+msgid "Blog Archives"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:121
+msgid "Blog Header Title"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:12
+#: themerelic/customizers/panels/home/sort.php:60
+msgid "Blog Section"
+msgstr ""
+
+#: themerelic/metabox/post-layout-metabox.php:33
+msgid "Both Sidebar"
+msgstr ""
+
+#: themerelic/customizers/panels/general/breadcrumb.php:11
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: themerelic/hooks/header-hook.php:29
+msgid "Categories"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:145
+msgid "Change Blog Description."
+msgstr ""
+
+#: themerelic/customizers/panels/home/single-products.php:78
+msgid "Change Button Text"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:436
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:438
+msgid "Change File"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:400
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:402
+msgid "Change Image"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:35
+msgid "Change the add to cart button text change."
+msgstr ""
+
+#: themerelic/customizers/panels/home/category-and-products.php:30
+msgid "Change the button text"
+msgstr ""
+
+#: themerelic/customizers/panels/home/category-and-products.php:31
+msgid "Change the button text."
+msgstr ""
+
+#: themerelic/customizers/panels/home/single-products.php:30
+#: themerelic/customizers/panels/home/single-products.php:54
+#: themerelic/customizers/panels/home/single-products.php:79
+msgid "change the products title."
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:58
+msgid "Change the Related Header Text Change."
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:112
+msgid "Change the slider button text change.ex:EXPLORE."
+msgstr ""
+
+#: themerelic/customizers/customizer-callback.php:54
+#: themerelic/customizers/panels/home/blog.php:136
+msgid "Check all our blog posts"
+msgstr ""
+
+#: themerelic/metabox/post-layout-metabox.php:29
+msgid "Choose from following layout:"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:57
+msgid "Click Service Box Icons And Select the Fontawesome Icons.Eg: fa fa-usd"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themerelic/hooks/woocommerce.php:178
+msgid "Compare"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:132 themerelic/hooks/woocommerce.php:343
+msgid "Created with Sketch."
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:90
+msgid "Default loop columns on product archives."
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:51
+msgid "Disable Archive Date"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:76
+msgid "Disable Author Metabox"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:32
+msgid "Disable blog info"
+msgstr ""
+
+#: themerelic/customizers/panels/general/breadcrumb.php:30
+msgid "Disable Breadcrumb Sections"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:98
+msgid "Disable Comment Metabox"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:53
+msgid "Disable Date Metabox"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:30
+msgid "Disable Default fallback Images"
+msgstr ""
+
+#: themerelic/customizers/panels/header/main-header.php:78
+msgid "Disable Header Cart Section"
+msgstr ""
+
+#: themerelic/customizers/panels/header/main-header.php:55
+msgid "Disable Header Wishlist"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:34
+msgid "Disable Homepage Slider"
+msgstr ""
+
+#: themerelic/customizers/sections/footer.php:31
+msgid "Disable Payment Method"
+msgstr ""
+
+#: themerelic/customizers/panels/header/main-header.php:32
+msgid "Disable Search Section"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:59
+msgid "Disable Slider Overlap"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:154
+msgid "Disable Social Share"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:93
+msgid "Disable the Author Metabox"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:72
+msgid "Disable the Category Metabox"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:114
+msgid "Disable the Comment Metabox"
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:31
+msgid "Disable The Related Post."
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:135
+msgid "Disable the Social Share"
+msgstr ""
+
+#: themerelic/customizers/panels/header/top-header.php:32
+msgid "Disable Top Header"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:199
+msgid "Display Single Page Sidebar."
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:45
+msgid "Display the Releted Post Count."
+msgstr ""
+
+#: themerelic/customizers/panels/header/top-header.php:53
+#: themerelic/customizers/panels/header/top-header.php:76
+msgid "Display the store address section."
+msgstr ""
+
+#: themerelic/customizers/panels/header/top-header.php:100
+msgid "Display the store phone no."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: themerelic/customizers/sections/footer.php:45
+msgid "Eg:Accepted Payment Mathods"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:146
+msgid "Eg:Check all our blog posts"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:52
+msgid "Enable/Disable Archive Date."
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:94
+msgid "Enable/Disable Author Metabox"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:77
+msgid "Enable/Disable Author Metabox."
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:33
+msgid "Enable/Disable Blog Info Section."
+msgstr ""
+
+#: themerelic/customizers/panels/general/breadcrumb.php:31
+msgid "Enable/Disable Breadcrumb Sections."
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:73
+msgid "Enable/Disable Category Metabox"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:115
+msgid "Enable/Disable Comment Metabox"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:54
+msgid "Enable/Disable Date Metabox."
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:31
+msgid "Enable/Disable Default Fallback Images."
+msgstr ""
+
+#: themerelic/customizers/panels/header/main-header.php:79
+msgid "Enable/Disable Header Cart Section."
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:35
+msgid "Enable/Disable homepage slider section."
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:60
+msgid "Enable/Disable overlap the another section in slider section."
+msgstr ""
+
+#: themerelic/customizers/sections/footer.php:32
+msgid "Enable/Disable Payment Method."
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:32
+msgid "Enable/Disable Related Post"
+msgstr ""
+
+#: themerelic/customizers/panels/header/main-header.php:33
+msgid "Enable/Disable Search Box Section."
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:136
+msgid "Enable/Disable Social Share"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:155
+msgid "Enable/Disable Social Share."
+msgstr ""
+
+#: themerelic/customizers/panels/header/top-header.php:33
+msgid "Enable/Disable Top Header Section."
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:99
+msgid "Enable/Disable Viewer Section."
+msgstr ""
+
+#: themerelic/customizers/panels/header/main-header.php:56
+msgid "Enable/Disable Wishlist Section."
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:78
+msgid "EXPLORE"
+msgstr ""
+
+#: themerelic/customizers/sections/footer.php:12
+msgid "Footer Section"
+msgstr ""
+
+#: functions.php:162
+msgid "Footer Widgets 1"
+msgstr ""
+
+#: functions.php:173
+msgid "Footer Widgets 2"
+msgstr ""
+
+#: functions.php:184
+msgid "Footer Widgets 3"
+msgstr ""
+
+#: functions.php:195
+msgid "Footer Widgets 4"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:32
+msgid "Free Cancellation"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:27
+msgid "Free Shipping"
+msgstr ""
+
+#: themerelic/customizers/panels/home.php:11
+msgid "Frontpage Settings"
+msgstr ""
+
+#: themerelic/metabox/post-layout-metabox.php:32
+msgid "Full Width"
+msgstr ""
+
+#: themerelic/customizers/panels/general.php:11
+#: themerelic/customizers/sections/woocommerce.php:16
+msgid "General Settings"
+msgstr ""
+
+#: themerelic/customizers/panels/home/instagram-feed.php:52
+msgid "Go to this site take your token id: http://instagram.pixelunion.net/"
+msgstr ""
+
+#: functions.php:286
+msgid "Grid/List View for WooCommerce"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:364
+msgid "Hex Value"
+msgstr ""
+
+#: themerelic/hooks/relic-fashion-store-function.php:417
+#: themerelic/hooks/relic-fashion-store-function.php:449
+msgid "Home"
+msgstr ""
+
+#: themerelic/customizers/panels/home/sort.php:32
+msgid "Homepage Sort Sections"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://www.themerelic.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themerelic.com/wordpress-themes/relic-fashion-store/"
+msgstr ""
+
+#: themerelic/hooks/footer-hook.php:52
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: themerelic/customizers/customizer-callback.php:87
+#: themerelic/customizers/panels/home/instagram-feed.php:20
+msgid "INSTAGRAM FEED"
+msgstr ""
+
+#: themerelic/customizers/panels/home/instagram-feed.php:11
+#: themerelic/customizers/panels/home/sort.php:61
+msgid "Instagram Feed"
+msgstr ""
+
+#: themerelic/customizers/panels/home/instagram-feed.php:29
+msgid "Instagram Feed Title"
+msgstr ""
+
+#: themerelic/customizers/panels/home/instagram-feed.php:30
+msgid "Instagram Feed Title Display"
+msgstr ""
+
+#: themerelic/customizers/panels/home/instagram-feed.php:70
+msgid "Instagram image count hear."
+msgstr ""
+
+#: themerelic/customizers/panels/home/instagram-feed.php:51
+msgid "Instagram Tocken ID"
+msgstr ""
+
+#: 404.php:35
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: themerelic/customizers/panels/home/single-products.php:44
+msgid ""
+"Its that time of the year again.Have a look at whats new in our hats "
+"collection."
+msgstr ""
+
+#: themerelic/customizers/customizer-callback.php:17
+msgid "KATHAMANDU , NEPAL"
+msgstr ""
+
+#: themerelic/customizers/panels/header/top-header.php:43
+msgid "Kathamandu , Nepal"
+msgstr ""
+
+#: functions.php:140 themerelic/metabox/post-layout-metabox.php:30
+msgid "Left Sidebar"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:108
+msgid "left-sidebar"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:232
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: themerelic/customizers/panels/header.php:11
+msgid "Logo & Header Settings"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:28
+#: themerelic/customizers/panels/home/service-section.php:33
+#: themerelic/customizers/panels/home/service-section.php:38
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie "
+"tincidunt mauris eget maximus. Pellentesque ullamcorper vel neque imperdiet "
+"vulputate."
+msgstr ""
+
+#: themerelic/customizers/panels/header/main-header.php:11
+msgid "Main Header Settings"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:407
+msgid "My Account"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:425
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:430
+msgid "No File Selected"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:389
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:394
+msgid "No Image Selected"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:156
+msgid "Number of excerpt limit word."
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:76
+msgid "Number of Gallery page Thumbnail Column"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:191
+#: themerelic/customizers/panels/home/instagram-feed.php:69
+msgid "Number of Post"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:192
+msgid "Number of Post Display on Tab Section."
+msgstr ""
+
+#: themerelic/customizers/panels/home/category-and-products.php:75
+#: themerelic/customizers/panels/home/products-tabs.php:77
+#: themerelic/customizers/panels/home/single-category-products.php:52
+msgid "Number of Products"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:89
+msgid "Number of Products Column"
+msgstr ""
+
+#: themerelic/customizers/panels/home/category-and-products.php:76
+msgid "Number of products display on category on this section."
+msgstr ""
+
+#: themerelic/customizers/panels/home/products-tabs.php:78
+msgid "Number of Products Display on Tab Section."
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:64
+msgid "Number of products in shop page."
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:44
+msgid "Number of Related Post"
+msgstr ""
+
+#. 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content-page.php:26
+msgid "Pages:"
+msgstr ""
+
+#: themerelic/customizers/sections/footer.php:63
+msgid "Payment Method Accepted"
+msgstr ""
+
+#: themerelic/customizers/sections/footer.php:44
+msgid "Payment Method Title"
+msgstr ""
+
+#: themerelic/customizers/customizer-callback.php:98
+#: themerelic/customizers/panels/home/products-tabs.php:22
+msgid "POPULAR CATEGORIES"
+msgstr ""
+
+#. %s: post author.
+#: themerelic/core/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: themerelic/core/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: functions.php:64
+msgid "Primary Menu"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:77
+msgid "Product gallery thumnbail columns."
+msgstr ""
+
+#: themerelic/customizers/panels/home/products-tabs.php:57
+msgid "Products Tab Category"
+msgstr ""
+
+#: themerelic/customizers/panels/home/products-tabs.php:31
+msgid "Products Tab Header Title"
+msgstr ""
+
+#: themerelic/customizers/panels/home/products-tabs.php:32
+msgid "Products Tab Header Title Display"
+msgstr ""
+
+#: themerelic/customizers/panels/home/products-tabs.php:12
+#: themerelic/customizers/panels/home/sort.php:50
+msgid "Products Tabs"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: themerelic/hooks/footer-hook.php:54
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: themerelic/customizers/customizer-callback.php:46
+#: themerelic/customizers/panels/home/blog.php:112
+msgid "RECENT BLOGS"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:276
+msgid "Recently added item(s)"
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:54
+msgid "Related"
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:57
+msgid "Related Post Text Header Text Change"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:179
+msgid "Related Products Columns"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:167
+msgid "Related Products Count"
+msgstr ""
+
+#. Name of the theme
+msgid "Relic Fashion Store"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Relic Fashion Store is a modern free WooCommerce WordPress theme especially "
+"designed for shops and eCommerce sites. It could be used for all types of "
+"ecommerce online stores, including: Fashion, Shoes, Jewelry, Watch, Sport, "
+"Technology, Mobile... Relic Fashion Store is easy to use and fully "
+"responsive.Theme is translation and multilinual ready. Relic Fashion Store "
+"is SEO friendly helping you to achieve the highest positions on Google and "
+"optimized codebase to maximize your site’s performance and loading speed.  "
+"Main theme features: 2 menu positions, advance search bar,top Header, shop "
+"by category, full width owl carousel with custom products, left or right "
+"sidebars,both sidebar, footer widget area, custom logo, custom background, "
+"breadcrumbs, related posts, one homepage styles, fast loading, cross-browser "
+"compatibility, font awesome, documentation , support, bootstrap grid layout. "
+"Theme including support for grid/list toggle shop page,wishlist, quick view "
+"and compare plugins . SEO Friendly."
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:177
+msgid "Relic fashion store sidebar layout."
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:399
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:464
+msgid "Remove"
+msgstr ""
+
+#: functions.php:129 themerelic/metabox/post-layout-metabox.php:31
+msgid "Right Sidebar"
+msgstr ""
+
+#: themerelic/customizers/custom-controls/repeater/class-control-repeater.php:69
+msgid "row"
+msgstr ""
+
+#: themerelic/hooks/header-hook.php:43
+msgid "Search"
+msgstr ""
+
+#: themerelic/hooks/header-hook.php:18
+msgid "Search Products"
+msgstr ""
+
+#: themerelic/hooks/relic-fashion-store-function.php:440
+msgid "Search Results"
+msgstr ""
+
+#. %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:168
+msgid "Select Post Category"
+msgstr ""
+
+#: themerelic/customizers/panels/home/category-and-products.php:54
+#: themerelic/customizers/panels/home/single-category-products.php:30
+#: themerelic/customizers/panels/home/single-products.php:102
+msgid "Select The Category"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:169
+msgid "Select The Post Category in All Section Hear."
+msgstr ""
+
+#: themerelic/customizers/panels/home/products-tabs.php:58
+msgid "Select the Products Tab Section Categories."
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:12
+#: themerelic/customizers/panels/home/sort.php:59
+msgid "Service Box"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:52
+msgid "Service Box Add"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:56
+msgid "Service Box Icons"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:13
+msgid ""
+"Service Box Section is set the service title, short descriptions and "
+"fontawesome icons. Drag \"Service Item\" sort these position."
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:66
+msgid "Service Box Short Desc"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:61
+msgid "Service Box Title"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:72
+msgid "Service Items"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:526
+msgid "Share"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:84
+msgid "Shop Now"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:63
+msgid "Shop Page Products"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:45
+msgid "Shop Page Settings"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:118
+msgid "Shop page sidebar layout."
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:117
+msgid "Shop PageSidebar"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:107
+msgid "Sider Text Type Hear."
+msgstr ""
+
+#: themerelic/customizers/panels/home/category-and-products.php:11
+#: themerelic/customizers/panels/home/sort.php:48
+msgid "Single Category and Products"
+msgstr ""
+
+#: themerelic/customizers/panels/home/single-category-products.php:12
+#: themerelic/customizers/panels/home/sort.php:49
+msgid "Single Category Products"
+msgstr ""
+
+#: themerelic/customizers/panels/home/single-category-products.php:53
+msgid "Single category products number of products display."
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:12
+msgid "Single Page && Page"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:135
+msgid "Single Page Settings"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:198
+msgid "Single Page Sidebar"
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:77
+msgid "Single page sidebar"
+msgstr ""
+
+#: themerelic/customizers/panels/general/single.php:78
+msgid "Single page sidebar layout."
+msgstr ""
+
+#: themerelic/customizers/panels/home/single-products.php:11
+#: themerelic/customizers/panels/home/sort.php:51
+msgid "Single Products"
+msgstr ""
+
+#: themerelic/customizers/panels/home/single-products.php:29
+#: themerelic/customizers/panels/home/single-products.php:53
+msgid "Single products Title"
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:101
+msgid "Slider Add"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:116
+msgid "Slider Button Links"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:111
+msgid "Slider Button Text"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:121
+msgid "Slider Image Upload"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:128
+msgid "Slider Item"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:117
+msgid "Slider Links Section.EX: www.relic-fashion-store.com/links"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:12
+msgid "Slider Settings"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:106
+msgid "Slider Text"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: themerelic/customizers/panels/home/sort.php:11
+msgid "Sort Home Page Section"
+msgstr ""
+
+#: themerelic/customizers/panels/home/sort.php:33
+msgid "Sort or toggle home page sections."
+msgstr ""
+
+#: themerelic/customizers/panels/header/top-header.php:52
+msgid "Store Address"
+msgstr ""
+
+#: themerelic/customizers/panels/header/top-header.php:75
+#: themerelic/customizers/panels/header/top-header.php:99
+msgid "Store Email"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:82
+msgid "The new collection  is here!"
+msgstr ""
+
+#: themerelic/hooks/woocommerce.php:151 themerelic/hooks/woocommerce.php:362
+msgid "The product is already in the wishlist!"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: themerelic/hooks/footer-hook.php:59
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#. Author of the theme
+msgid "themerelic"
+msgstr ""
+
+#: themerelic/customizers/customizer-callback.php:25
+msgid "THEMERELIC@GMAIL.COM"
+msgstr ""
+
+#: themerelic/customizers/panels/header/top-header.php:66
+msgid "themerelic@gmail.com"
+msgstr ""
+
+#: themerelic/customizers/panels/header/top-header.php:12
+msgid "Top Header Settings"
+msgstr ""
+
+#: functions.php:63
+msgid "Top Menu"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:67
+msgid "Type the service sort Desce. Eg: Online 24 hours"
+msgstr ""
+
+#: themerelic/customizers/panels/home/service-section.php:62
+msgid "Type the service title. Eg: BIG SAVING"
+msgstr ""
+
+#: themerelic/customizers/panels/home/blog.php:122
+msgid "Type your blog header title.Ex: RECENT BLOGS"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:76
+msgid "Up To 30% Summer Sale Now Starting at $45.00"
+msgstr ""
+
+#: themerelic/customizers/panels/home/slider.php:122
+msgid "Upload the slider image"
+msgstr ""
+
+#: themerelic/customizers/customizer-callback.php:79
+#: themerelic/customizers/panels/home/category-and-products.php:21
+#: themerelic/customizers/panels/home/single-products.php:69
+msgid "VIEW ALL"
+msgstr ""
+
+#: functions.php:266
+msgid "WooCommerce"
+msgstr ""
+
+#: themerelic/customizers/sections/woocommerce.php:10
+msgid "Woocommerce Settings"
+msgstr ""
+
+#: functions.php:151
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: themerelic/customizers/panels/general/archive.php:155
+msgid "Word Limit Excerpt"
+msgstr ""
+
+#: functions.php:276
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: functions.php:271
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: functions.php:281
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:30
+msgid "You may also like&hellip;"
+msgstr ""

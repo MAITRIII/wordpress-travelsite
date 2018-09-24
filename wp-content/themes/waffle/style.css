@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/*
+Theme Name: waffle
+Author: Z.com byGMO
+Author URI: https://cloud.z.com/jp/en/wp/
+Description: waffle is child theme of twenty fifteen base functionality is took over parent has and additional features are installed especially background color and text color on sidebar.
+Template: twentyfifteen
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: waffle
+*/
+html,body{
+    font-size: 12px;
+}
+body {
+  background-size: cover;
+}
+body.custom-background {
+  background-size: cover;
+}
+body:before {
+  background: none;
+}
+#page {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "ＭＳＰゴシック", sans-serif;
+  font-weight: lighter;
+}
+body a:hover {
+  color: #4aa0c8 !important;
+}
+
+.sidebar {
+  height: 100%;
+}
+.sidebar .sidebar-inner {
+  height: 100%;
+}
+.sidebar .sidebar-inner .secondary {
+  background: none;
+  margin-bottom: 30px;
+}
+
+.site-content {
+  color: #333333 !important;
+}
+.site-content .entry-content p {
+  color: #726851;
+}
+.site-content .comments-area {
+  background-color: rgba(247, 241, 221, 0.9);
+}
+.site-content .comments-area .comment-reply-title,
+.site-content .comments-area .comments-title,
+.site-content .comments-area .comment-content > p {
+  color: #333333;
+}
+.site-content .navigation {
+  background-color: rgba(247, 241, 221, 0.9);
+}
+.site-content .navigation .nav-previous, .site-content .navigation .nav-next {
+  background-color: rgba(247, 241, 221, 0.9);
+}
+.site-content .entry-footer {
+  background: none;
+}
+.site-content .entry-footer .posted-on {
+  border-left: 5px solid #726851;
+  padding: 5px 0 5px 25px;
+}
+
+/*
+
+    Main navigation
+
+*/
+.main-navigation ul {
+  border-top: 1px solid #f7f1dd;
+  border-bottom: 1px solid #f7f1dd;
+  /*border-color: rgba( 255, 255, 255, 0.1);*/
+  zoom: 1;
+}
+.main-navigation ul li {
+  float: left;
+  border: none;
+  font-size: 13px;
+}
+.main-navigation ul li a {
+  display: block;
+  box-sizing: border-box;
+  padding: 13px 5px;
+  font-weight: normal;
+}
+.main-navigation ul .current-menu-item > a {
+  font-weight: normal;
+}
+.main-navigation ul:before, .main-navigation ul:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.main-navigation ul:after {
+  clear: both;
+}
+
+/*
+
+    Widget Area
+
+*/
+.widget-area .widget_search .search-field {
+  background-color: #f7f1dd;
+}
+.widget-area .widget ul:not(.menu) li {
+  padding: 3px 0 3px 5px;
+  border-top: none;
+}
+.widget-area .widget ul:not(.menu) li:before {
+  content: '\B7';
+  display: inline-block;
+  margin-right: 10px;
+  color: inherit;
+}
+.widget-area .widget ul:not(.menu) li a {
+  font-size: 1.067rem;
+}
+.widget-area .widget ul.menu {
+  list-style: none;
+  padding: 10px 0;
+  zoom: 1;
+}
+.widget-area .widget ul.menu li {
+  float: left;
+  padding: 0;
+  border: none;
+  line-height: 0;
+}
+.widget-area .widget ul.menu li a {
+  display: block;
+  color: #f7f1dd;
+  font-size: 1.200rem;
+  padding: 10px 5px;
+}
+.widget-area .widget ul.menu:before, .widget-area .widget ul.menu:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.widget-area .widget ul.menu:after {
+  clear: both;
+}
+.widget-area .widget .textwidget > p {
+  font-weight: lighter;
+  font-size: 1.333rem;
+}
+.widget-area .widget .textwidget > p > a:hover {
+  border-bottom: none;
+}
+.widget-area .widget .widget-title {
+  font-size: 1.200rem;
+  padding-bottom: 10px;
+}
+
+.content-area .page-header {
+  color: #4aa0c8;
+  background: rgba(247, 241, 221, 0.9);
+  border: 1px solid #726851;
+}
+.content-area .site-main {
+  padding-bottom: 10px;
+}
+.content-area .site-main .hentry {
+  background: rgba(247, 241, 221, 0.9);
+  border: 1px solid #726851;
+}
+.content-area .site-main .entry-title {
+  color: #333333;
+  font-size: 1.8em;
+  font-weight: lighter;
+}
+.content-area .site-main .entry-title a:hover {
+  color: #4aa0c8;
+}
+.content-area .site-main .page-content {
+  background: rgba(247, 241, 221, 0.9);
+  border: 1px solid #726851;
+}
+
+.site-footer {
+  background: none;
+  box-shadow: none;
+  padding: 0 0 20px 0;
+}
+.site-footer .site-info {
+  padding: 0;
+  text-align: right;
+}
+
+@media screen and (max-width: 38.75em) {
+  .sidebar-inner .main-navigation {
+    padding-top: 30px;
+  }
+  .sidebar-inner .secondary {
+    background: none !important;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 59.6875em) {
+  .site-header {
+    background: none !important;
+    margin: 20% 0 15% 0;
+  }
+
+  .sidebar-inner .secondary {
+    background: none !important;
+  }
+  .sidebar-inner .secondary .main-navigation ul {
+    border-color: #f7f1dd;
+  }
+}

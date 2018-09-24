@@ -1,0 +1,741 @@
+# <!=Copyright (C) 2017 Rara Theme
+# This file is distributed under the GNU General Public License v2 or later.=!>
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Travel Agency 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2018-05-25 08:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: 404.php:12
+msgid "Sorry, The Page Not Found"
+msgstr ""
+
+#: 404.php:14
+msgid ""
+"Can&rsquo;t find what you need? Take a moment and do a search below or start "
+"from our"
+msgstr ""
+
+#: 404.php:16
+msgid "Homepage"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "(%1$s) Comment"
+msgid_plural "(%1$s) Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:50
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:54
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/custom-functions.php:47 inc/custom-functions.php:110
+msgid "Primary"
+msgstr ""
+
+#: inc/custom-functions.php:48
+msgid "Footer"
+msgstr ""
+
+#: inc/custom-functions.php:296
+msgid "Name*"
+msgstr ""
+
+#: inc/custom-functions.php:298
+msgid "Email*"
+msgstr ""
+
+#: inc/custom-functions.php:300
+msgid "Website"
+msgstr ""
+
+#: inc/custom-functions.php:315
+msgid "Comment"
+msgstr ""
+
+#: inc/customizer.php:64
+#, php-format
+msgid ""
+"If you want to take full advantage of the features this theme has to offer, "
+"please install and activate %s plugin."
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Recommended Plugin"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/customizer.php:69
+#: inc/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:75
+msgid "Activate"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Deactivate"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/extras.php:48
+msgid ", "
+msgstr ""
+
+#. translators: used between list items, there is a space
+#: inc/extras.php:65
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#. translators: %s: post title
+#: inc/extras.php:85
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/extras.php:94
+msgid "1"
+msgstr ""
+
+#: inc/extras.php:95
+msgid "%"
+msgstr ""
+
+#: inc/extras.php:148
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/extras.php:153
+msgid "Says:"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: inc/extras.php:157
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/extras.php:159
+msgid "(Edit)"
+msgstr ""
+
+#: inc/extras.php:221
+msgid "Click here to add a menu"
+msgstr ""
+
+#: inc/metabox.php:12
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/metabox.php:24
+msgid "Right Sidebar (default)"
+msgstr ""
+
+#: inc/metabox.php:29
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/metabox.php:41
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: inc/partials.php:13 inc/template-functions.php:52
+#: inc/customizer/header.php:47
+msgid "(888) 123-45678"
+msgstr ""
+
+#: inc/partials.php:22 inc/template-functions.php:53
+#: inc/customizer/header.php:72
+msgid "Call us, we are open 24/7"
+msgstr ""
+
+#: inc/partials.php:31 sections/banner.php:8 inc/customizer/home.php:72
+msgid "Find Your Best Holiday"
+msgstr ""
+
+#: inc/partials.php:40 sections/banner.php:9 inc/customizer/home.php:96
+msgid "Find great adventure holidays and activities around the planet."
+msgstr ""
+
+#: inc/partials.php:60 sections/blog.php:9 inc/customizer/home.php:145
+msgid "Latest Articles"
+msgstr ""
+
+#: inc/partials.php:69 sections/blog.php:10 inc/customizer/home.php:169
+msgid ""
+"Show your latest blog posts here. You can modify this section from "
+"Appearance > Customize > Home Page Settings > Blog Section."
+msgstr ""
+
+#: inc/partials.php:79 sections/blog.php:13 inc/customizer/home.php:193
+msgid "View All Posts"
+msgstr ""
+
+#: inc/partials.php:88 inc/template-functions.php:633
+#: inc/customizer/general.php:83
+msgid "You may also like..."
+msgstr ""
+
+#: inc/partials.php:97 inc/template-functions.php:517 sections/blog.php:11
+#: inc/customizer/general.php:30
+msgid "Read More"
+msgstr ""
+
+#: inc/partials.php:111
+msgid "&copy; Copyright "
+msgstr ""
+
+#: inc/partials.php:112 inc/template-functions.php:217
+#: inc/template-functions.php:217 inc/template-functions.php:218
+#: inc/template-functions.php:223 inc/template-functions.php:223
+#: inc/template-functions.php:228
+msgid "Y"
+msgstr ""
+
+#: inc/template-functions.php:110
+msgid "MENU"
+msgstr ""
+
+#: inc/template-functions.php:138 inc/customizer/general.php:135
+msgid "Home"
+msgstr ""
+
+#: inc/template-functions.php:139 inc/customizer/general.php:153
+msgid ">"
+msgstr ""
+
+#: inc/template-functions.php:213
+msgid "Search Results for \""
+msgstr ""
+
+#: inc/template-functions.php:213
+msgid "\""
+msgstr ""
+
+#: inc/template-functions.php:218
+msgid "m"
+msgstr ""
+
+#: inc/template-functions.php:218 inc/template-functions.php:224
+msgid "F"
+msgstr ""
+
+#: inc/template-functions.php:219
+msgid "d"
+msgstr ""
+
+#: inc/template-functions.php:318
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/template-functions.php:356
+msgid "404 Error - Page Not Found"
+msgstr ""
+
+#: inc/template-functions.php:359
+msgid " (Page"
+msgstr ""
+
+#: inc/template-functions.php:359
+msgid ")"
+msgstr ""
+
+#. translators: %s: search query.
+#: inc/template-functions.php:414
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template-functions.php:423
+msgid "404"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-functions.php:486
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/template-functions.php:497
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-functions.php:540
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-functions.php:589
+msgid "Prev Post"
+msgstr ""
+
+#: inc/template-functions.php:597
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-functions.php:605
+msgid "Post Navigation"
+msgstr ""
+
+#: inc/template-functions.php:617
+msgid "Previous"
+msgstr ""
+
+#: inc/template-functions.php:618
+msgid "Next"
+msgstr ""
+
+#: inc/template-functions.php:619
+msgid "Page"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: inc/template-functions.php:789
+msgid "Travel Agency"
+msgstr ""
+
+#: inc/template-functions.php:789
+msgid " by Rara Theme."
+msgstr ""
+
+#: inc/template-functions.php:791
+#, php-format
+msgid " Powered by %s"
+msgstr ""
+
+#: inc/template-functions.php:791
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/widgets.php:17
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets.php:19
+msgid "Default Sidebar"
+msgstr ""
+
+#: inc/widgets.php:22
+msgid "Footer One"
+msgstr ""
+
+#: inc/widgets.php:24
+msgid "Add footer one widgets here."
+msgstr ""
+
+#: inc/widgets.php:27
+msgid "Footer Two"
+msgstr ""
+
+#: inc/widgets.php:29
+msgid "Add footer two widgets here."
+msgstr ""
+
+#: inc/widgets.php:32
+msgid "Footer Three"
+msgstr ""
+
+#: inc/widgets.php:34
+msgid "Add footer three widgets here."
+msgstr ""
+
+#: inc/widgets.php:37
+msgid "Footer Four"
+msgstr ""
+
+#: inc/widgets.php:39
+msgid "Add footer four widgets here."
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-trip.php:43
+msgid " Days"
+msgstr ""
+
+#: template-parts/content-trip.php:47
+msgid "View Detail"
+msgstr ""
+
+#: inc/customizer/demo.php:13
+msgid "Demo Content Import"
+msgstr ""
+
+#: inc/customizer/demo.php:26
+msgid "Demo Import Tutorial"
+msgstr ""
+
+#: inc/customizer/demo.php:26 inc/customizer/info.php:25
+#: inc/customizer/info.php:26 inc/customizer/info.php:27
+#: inc/customizer/info.php:28 inc/customizer/info.php:29
+msgid "here"
+msgstr ""
+
+#: inc/customizer/demo.php:36
+msgid "About Demo Import"
+msgstr ""
+
+#: inc/customizer/demo.php:46
+msgid "Plugin required"
+msgstr ""
+
+#: inc/customizer/demo.php:46 inc/tgmpa/recommended-plugins.php:61
+msgid "Rara One Click Demo Import"
+msgstr ""
+
+#: inc/customizer/demo.php:49
+msgid "Download Demo Content Zip File"
+msgstr ""
+
+#: inc/customizer/demo.php:49
+msgid "Click here"
+msgstr ""
+
+#: inc/customizer/footer.php:13
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/footer.php:32
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/general.php:11
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/general.php:20
+msgid "Archive Page Settings"
+msgstr ""
+
+#: inc/customizer/general.php:40
+msgid "Read More Label"
+msgstr ""
+
+#: inc/customizer/general.php:54
+msgid "Post Page Settings"
+msgstr ""
+
+#: inc/customizer/general.php:73
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer/general.php:74
+msgid "Enable to show related posts in single post page."
+msgstr ""
+
+#: inc/customizer/general.php:93
+msgid "Related Post Title"
+msgstr ""
+
+#: inc/customizer/general.php:107
+msgid "SEO Settings"
+msgstr ""
+
+#: inc/customizer/general.php:126
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer/general.php:143
+msgid "Breadcrumb Home Text"
+msgstr ""
+
+#: inc/customizer/general.php:161
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: inc/customizer/header.php:11
+msgid "Logo & Header Settings"
+msgstr ""
+
+#: inc/customizer/header.php:19
+msgid "Misc Settings"
+msgstr ""
+
+#: inc/customizer/header.php:37 inc/customizer/home.php:57
+msgid "Search Form"
+msgstr ""
+
+#: inc/customizer/header.php:38
+msgid "Enable to show search form in header."
+msgstr ""
+
+#: inc/customizer/header.php:56
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer/header.php:57
+msgid "Add phone no. in header."
+msgstr ""
+
+#: inc/customizer/header.php:81
+msgid "Phone Label"
+msgstr ""
+
+#: inc/customizer/header.php:82
+msgid "Add phone label in header."
+msgstr ""
+
+#: inc/customizer/home.php:11
+msgid "Front Page Settings"
+msgstr ""
+
+#: inc/customizer/home.php:17
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer/home.php:36
+msgid "Enable Banner Section"
+msgstr ""
+
+#: inc/customizer/home.php:58
+msgid "Enable to show search form in banner."
+msgstr ""
+
+#: inc/customizer/home.php:81 inc/customizer/home.php:154
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/home.php:105 inc/customizer/home.php:178
+msgid "Sub Title"
+msgstr ""
+
+#: inc/customizer/home.php:118
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer/home.php:136
+msgid "Enable Blog Section"
+msgstr ""
+
+#: inc/customizer/home.php:202
+msgid "View All label"
+msgstr ""
+
+#: inc/customizer/info.php:11
+msgid "Information Links"
+msgstr ""
+
+#: inc/customizer/info.php:24
+msgid "Need help?"
+msgstr ""
+
+#: inc/customizer/info.php:25
+msgid "View demo"
+msgstr ""
+
+#: inc/customizer/info.php:26
+msgid "Recommended plugins"
+msgstr ""
+
+#: inc/customizer/info.php:27
+msgid "View documentation"
+msgstr ""
+
+#: inc/customizer/info.php:28
+msgid "Support ticket"
+msgstr ""
+
+#: inc/customizer/info.php:29
+msgid "More Details"
+msgstr ""
+
+#: inc/customizer/info.php:35
+msgid "About Travel Agency"
+msgstr ""
+
+#: inc/customizer/info.php:150
+msgid "Pro Available"
+msgstr ""
+
+#: inc/customizer/info.php:152
+msgid "VIEW PRO THEME"
+msgstr ""
+
+#: inc/customizer/social.php:14
+msgid "Social Settings"
+msgstr ""
+
+#: inc/customizer/social.php:32 inc/customizer/social.php:89
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer/social.php:33
+msgid "Enable to show social links in header."
+msgstr ""
+
+#: inc/customizer/social.php:93
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: inc/customizer/social.php:94
+msgid "Example: fa-bell"
+msgstr ""
+
+#: inc/customizer/social.php:98
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/social.php:99
+msgid "Example: http://facebook.com"
+msgstr ""
+
+#: inc/customizer/social.php:104
+msgid "links"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:50
+msgid "Travel Agency Companion"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:56
+msgid "WP Travel Engine"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:74
+msgid "row"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:82
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:237
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:369
+msgid "Hex Value"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:394
+#: inc/customizer/repeater/class-control-repeater.php:399
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:404
+#: inc/customizer/repeater/class-control-repeater.php:469
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:405
+#: inc/customizer/repeater/class-control-repeater.php:409
+msgid "Add Image"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:405
+#: inc/customizer/repeater/class-control-repeater.php:407
+msgid "Change Image"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:430
+#: inc/customizer/repeater/class-control-repeater.php:435
+msgid "No File Selected"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:441
+#: inc/customizer/repeater/class-control-repeater.php:445
+msgid "Add File"
+msgstr ""
+
+#: inc/customizer/repeater/class-control-repeater.php:441
+#: inc/customizer/repeater/class-control-repeater.php:443
+msgid "Change File"
+msgstr ""
+
+#: inc/customizer-plugin-recommend/customizer-notice/class-customizer-notice.php:144
+msgid "Activating"
+msgstr ""
+
+#: inc/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:59
+msgid "Install and activate"
+msgstr ""
+
+#: inc/customizer-plugin-recommend/plugin-install/class-plugin-install-helper.php:110
+msgid "Activating "
+msgstr ""
+
+#: inc/customizer-plugin-recommend/section-notice/class-section-notice.php:72
+msgid ""
+"To have access to other sections please install and configure Travel Agency "
+"Companion plugin."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Travel Agency is a free WordPress theme to create travel online booking "
+"website for tour and travel operators and companies. You can add trips, "
+"destinations, and trip types, feature travel activities, highlight your "
+"specialties and allow visitors to book the trips. The stunning design "
+"combined with modern CSS effects and animation will make your visitors feel "
+"like they are already on a trip. Travel Agency WordPress theme is speed "
+"optimized, translation ready, SEO-friendly and mobile-friendly. Apart from "
+"travel booking companies, you can also use Travel Agency theme for travel "
+"blogging, hotel, spa, bed and breakfast, luxury resort, reservation, tour "
+"operator, tourism, transports and car booking. Check the demo at https:"
+"//raratheme.com/preview/travel-agency/, video documentation at https:"
+"//raratheme.com/documentation/travel-agency-documentation/, and get support "
+"at https://raratheme.com/support-ticket/."
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://raratheme.com/wordpress-themes/travel-agency/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rara Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://raratheme.com/"
+msgstr ""

@@ -1,0 +1,1211 @@
+/*!
+Theme Name: Relic Fashion Store
+Theme URI: https://themerelic.com/wordpress-themes/relic-fashion-store/
+Author: themerelic
+Author URI: http://www.themerelic.com
+Description: Relic Fashion Store is a modern free WooCommerce WordPress theme especially designed for shops and eCommerce sites. It could be used for all types of ecommerce online stores, including: Fashion, Shoes, Jewelry, Watch, Sport, Technology, Mobile... Relic Fashion Store is easy to use and fully responsive.Theme is translation and multilinual ready. Relic Fashion Store is SEO friendly helping you to achieve the highest positions on Google and optimized codebase to maximize your site’s performance and loading speed.  Main theme features: 2 menu positions, advance search bar,top Header, shop by category, full width owl carousel with custom products, left or right sidebars,both sidebar, footer widget area, custom logo, custom background, breadcrumbs, related posts, one homepage styles, fast loading, cross-browser compatibility, font awesome, documentation , support, bootstrap grid layout. Theme including support for grid/list toggle shop page,wishlist, quick view and compare plugins . SEO Friendly.
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: relic-fashion-store
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments,right-sidebar,left-sidebar,footer-widgets,translation-ready,e-commerce,blog
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Relic Fashion Store is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+  ## Links
+  ## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+  ## Posts and pages
+  ## Comments
+# Infinite scroll
+# Media
+  ## Captions
+  ## Galleries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+[hidden],
+template {
+	display: none;
+}
+
+a {
+	background-color: transparent;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+img {
+	border: 0;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+figure {
+	margin: 1em 40px;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+pre {
+	overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+legend{
+	width: fit-content;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input {
+	line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+	border: 0;
+	padding: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+optgroup {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #404040;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: #fff;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul,
+ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li>ul,
+li>ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+}
+
+figure {
+	margin: 1em 0;
+	/* Extra wide images within figure tags don't overflow the content area. */
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: #ccc #ccc #bbb;
+	border-radius: 3px;
+	background: #e6e6e6;
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1;
+	padding: .6em 1em .4em;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: #ccc #bbb #aaa;
+}
+
+button:active,
+button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+	border-color: #aaa #bbb #bbb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px;
+	width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #111;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+textarea {
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+
+a {
+	color: royalblue;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: midnightblue;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+
+.main-navigation {
+	clear: both;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.main-navigation ul {
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+.main-navigation ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	float: left;
+	position: absolute;
+	top: 100%;
+	left: -999em;
+	z-index: 99999;
+}
+
+.main-navigation ul ul ul {
+	left: -999em;
+	top: 0;
+}
+
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li.focus>ul {
+	left: 100%;
+}
+
+.main-navigation ul ul a {
+	width: 200px;
+}
+
+.main-navigation ul li:hover>ul,
+.main-navigation ul li.focus>ul {
+	left: auto;
+}
+
+.main-navigation li {
+	float: left;
+	position: relative;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
+
+/* Small menu. */
+
+.menu-toggle,
+.main-navigation.toggled ul {
+	display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+	.menu-toggle {
+		display: none;
+	}
+	.main-navigation ul {
+		display: block;
+	}
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important;
+	/* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+
+.alignleft {
+	display: inline;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+	clear: both;
+}
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.widget {
+	margin: 0 0 1.5em;
+	/* Make sure select elements fit in widgets. */
+}
+
+.widget select {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+	/* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* Make sure logo link wraps around logo image. */
+
+.custom-logo-link {
+	display: inline-block;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+	margin: 0;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+/* Footer copyright Section */
+
+.site-info,
+.site-info a {
+	color: #bdbdbd;
+}
+
+.relic-fashion-store-star-rating {
+	margin: 3px 0;
+}
+
+.item_pro {
+	background: #fff;
+	margin: 10px 0;
+}
+
+
+.col-sm-12.col-md-6.col-lg-4.products-full {
+	background: #fff;
+	margin-right: -8px;
+}
+
+
+/**
+* Header Cart Button
+*/
+
+div#top-add-cart {
+	display: none;
+}
+
+.mini-cart:hover #top-add-cart {
+	display: block;
+	height: 300px;
+    overflow: scroll;
+}
+
+/*page links/pagination*/
+
+.navigation .nav-links {
+	clear: both;
+	font-family: "Lato", sans-serif;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.navigation .nav-links a,
+.navigation .nav-links>span {
+	display: inline-block;
+	font-size: 19px;
+	height: 2em;
+	line-height: 2;
+	margin: 0 2px 3px 3px;
+	text-align: center;
+	width: 3em;
+}
+
+h2.screen-reader-text {
+	display: none;
+}
+
+.navigation .nav-links a {
+	background-color: #f7f7f7;
+	color: #333;
+}
+
+.navigation .nav-links a:hover,
+.navigation .nav-links a:focus {
+	background-color: #e54a48;
+	border-color: transparent;
+	color: #fff;
+}
+
+.wraper-pagination {
+	text-align: center;
+}
+
+.navigation .nav-links a:hover,
+.navigation .nav-links a:focus {
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+.current {
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+}
+
+nav.navigation.pagination {
+	background: none;
+}
+
+.widget-area .widget_search label,
+.widget-area .widget_search input[type="search"],
+.widget-area .widget_search input {
+	display: block;
+}
+
+
+/* menu css */
+nav ul.children,
+.menu ul.children {
+	display: none;
+	width: fit-content;
+	position: absolute;
+	background: black;
+	z-index: 2;
+}
+
+.menu ul.children {
+	background: #222;
+	box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+	width: 270px;
+}
+.menu ul.children li {
+	padding: 5px 0;
+}
+nav ul.children li ul.children,
+.menu ul.children li ul.children {
+	position: relative;
+}
+.headerlinkmenu .menu ul.children li ul.children {
+	position: absolute;
+    left: 95%;
+    top: 10px;
+}
+.headerlinkmenu .menu ul.children li a {
+	color: #fff;
+}
+.menu ul.children li a {
+	padding-left: 15px;
+}
+
+nav ul li,
+.menu ul li {
+	color: #fff;
+	display: inline;
+}
+
+.nav ul.children li,
+.menu ul.children li {
+	display: inline;
+	width: 100%;
+}
+
+nav li:hover>ul.children,
+.menu li:hover>ul.children {
+	display: block;
+}
+
+nav .children li {
+	display: block;
+	padding: 5px;
+}
+nav .children li a{
+	color: #fff;
+	font-size: 15px !important;
+	padding: 5px 0 5px 10px;
+	font-weight: 500;
+}
+header nav li ul.children {
+	width: 213px;
+}
+header nav li ul.children li {
+	position: relative;
+	width: 100%;
+}
+header nav li ul.children li:hover {
+	background: #222;
+}
+header nav li ul.children li ul.children {
+	position: absolute;
+	left: 100%;
+	top: 5px;
+}
+a.button.product_type_grouped {
+	color: #fff;
+	text-transform: capitalize;
+}
+a.button.product_type_external {
+    width: 100%;
+    padding: 0;
+    color: black;
+    background: none;
+}
+#homepage-single-category-products .products-full li.product {
+    height: 100%;
+    background: white;
+}
+
+#homepage-single-category-products .products-full li.product .cart{
+    margin:0;
+    padding-bottom: 0;
+}
+
+.button:visited {
+	color: #fff;
+}
+header .header-wrap-2 .top-links li.woocommerce-mini-cart-item {
+	margin: 0;
+}
+.woocommerce-mini-cart-item {
+	width: 100%;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid #f6f6f6;
+}
+header .header-wrap-2 .top-links li.woocommerce-mini-cart-item {
+	color: #222;
+	text-align: left;
+	padding: 15px;
+}
+header .header-wrap-2 .top-links li.woocommerce-mini-cart-item a {
+	display: block;
+	color: #222;
+}
+form input[type="text"] {
+    padding: 8px;
+    border: none;
+    margin-bottom: 0 !important;
+}
+.recent_blog .widget {
+	margin: 0 0 20px;
+}
+.recent_blog .widget-title {
+	padding: 10px 0;
+}
+.recent_blog .widget ul li {
+	line-height: 24px;
+}
+.recent_blog .widget ul li a {
+	font-size: 14px;
+	display: block;
+}	
+.wc-proceed-to-checkout a {
+	padding:10px 30px;
+	border-radius: 100px;
+}
+.wc-proceed-to-checkout a:hover {
+	background: #333;
+	color: #fff;
+}
+.woocommerce p label {
+	width: 30%;
+}	
+.yith-wcwl-add-button a.add_to_wishlist {
+	color: #fff;
+	font-size: 14px;
+}
+.woocommerce-tabs ul.tabs li a {
+	padding: 0 !important;
+}
+.comment-subscription-form input[type="checkbox"], input[type="radio"] {
+	float: left;
+}
+.comment-subscription-form .subscribe-label {
+	margin-top: -4px;
+	margin-left: 8px;
+}
+.woocommerce-tabs .panel h2:first-of-type {
+	margin-top: 10px;
+	margin-bottom: 10px !important;
+}
+.comment-form input[type="submit"] {
+	width: auto;
+	padding: 12px 30px;
+    border-radius: 100px;
+}
+.entry-content .woocommerce button.button {
+	padding: 15px 30px;
+    margin: 10px 0;
+}
+.entry-content .woocommerce p label {
+	padding-top: 15px;
+}
+
+/**
+*Woocommerce section
+*/
+section#homepage_single_products_sec,
+section#instagram_feed {
+    margin-top: 20px;
+}
+.display-block{
+	display: block;
+}
+.hidden{
+	display: none;
+}
+section#homepage-tab-section .item,
+section#homepage_single_category_and_products_cat_id_select .item {
+    width:  100%;
+}
+
+
+.admin-bar header {
+    top: 30px !important;
+}
+
+.breadcrumb-section {
+    margin-bottom: 10px;
+}
+
+section#relic_fashion_blog_section {
+    margin-bottom: 20px;
+}

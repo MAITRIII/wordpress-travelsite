@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+
+#. Author of the plugin/theme
+msgid "GMO creative team"
+msgstr ""
+
+#: functions.php
+msgid "Front Page Sidebar"
+msgstr "フロントページ"
+
+#: functions.php
+msgid "Add widgets here to appear in your front page."
+msgstr "フロントページのサイドバー用です"
+
+#: functions.php
+msgid "Inner Page Sidebar"
+msgstr "インナーページ"
+
+#: functions.php
+msgid "Add widgets here to appear in your innner page."
+msgstr "インナーページのサイドバー用です"
+
+#: functions.php
+msgid "Waffle Sidebar Background Color"
+msgstr "サイドバーの背景色"
+
+#: functions.php
+msgid "Opacity"
+msgstr "透過度"
+
+#: functions.php
+msgid "Waffle Sidebar Text Color"
+msgstr "サイドバーの文字色"
+
+#: functions.php
+msgid "Waffle Logo"
+msgstr "ロゴ画像"
+
+#: functions.php
+msgid "Select or Upload your logo"
+msgstr "ロゴを選択してください"
+
+#: functions.php
+msgid "Background Image"
+msgstr "背景画像"
+
+#: functions.php
+msgid "Select or Upload your Image"
+msgstr "背景画像を選択してください"
+
+#: functions.php
+msgid "Blog"
+msgstr "ブログ"
+
+#: functions.php
+msgid "Home"
+msgstr "ホーム"
+
+#: functions.php
+msgid "Sample Page"
+msgstr "サンプルページ"
+
+#: functions.php
+msgid "Logo"
+msgstr "ロゴ画像"
